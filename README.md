@@ -3,10 +3,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dSmWj7r-5UMHIlQjy5MuF1gLNP2osBsM?usp=sharing)  
 **Reproducible Training Notebook**
 
-**End-to-end object detection project** built as part of my Computer Vision portfolio.
-
-I created a clean **1,500-image subset** from the official COCO 2017 validation set using FiftyOne, imported and reviewed annotations in CVAT, and trained a YOLOv8 model on Google Colab.
-
 ---
 
 **End-to-end object detection project** built as part of my Computer Vision portfolio.
@@ -40,7 +36,7 @@ I created a clean **1,500-image subset** from the official COCO 2017 validation 
 ### 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yourusername/coco-1500-object-detection-yolov8.git
+git clone https://github.com/razprowess/coco-1500-object-detection-yolov8.git
 cd coco-1500-object-detection-yolov8
 
 pip install ultralytics
