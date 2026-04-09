@@ -48,25 +48,31 @@ pip install ultralytics
 # Run inference
 python inference.py --image test_image.jpg
 ```
+
 ### 📁 Project Structure
+
+```bash
 coco-1500-object-detection-yolov8/
 ├── README.md
 ├── inference.py
-├── data.yaml                                   
-├── weights/              
-│   ├── curves/              
+├── data.yaml
+├── notebook/
+│   └── training_coco1500.ipynb
+├── results/
+│   ├── curves/
 │   │   ├── BoxF1_curve.png
 │   │   ├── BoxPR_curve.png
 │   │   ├── BoxP_curve.png
 │   │   └── BoxR_curve.png
-├── confusion_matrix.png
-├── confusion_matrix_normalized.png
-├── results.png
-├── results.csv
-├── args.yaml
-│   └── train_batch*.jpg      
-│   
+│   ├── confusion_matrix.png
+│   ├── confusion_matrix_normalized.png
+│   ├── results.png
+│   ├── results.csv
+│   ├── args.yaml
+│   └── train_batch*.jpg
+├── predictions/           # Output images from inference.py
 └── requirements.txt
+```
 
 ### 🛠️ Tech Stack
 
