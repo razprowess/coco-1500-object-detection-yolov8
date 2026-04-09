@@ -70,7 +70,6 @@ coco-1500-object-detection-yolov8/
 │   ├── results.csv
 │   ├── args.yaml
 │   └── train_batch*.jpg
-├── predictions/           # Output images from inference.py
 └── requirements.txt
 ```
 
