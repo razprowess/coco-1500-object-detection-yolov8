@@ -49,11 +49,24 @@ pip install ultralytics
 python inference.py --image test_image.jpg
 ```
 ### 📁 Project Structure
-text├── notebook/              # Google Colab training notebook
-├── results/               # Training graphs + best.pt
-├── inference.py           # Inference script
-├── data.yaml
-└── README.md
+coco-1500-object-detection-yolov8/
+├── README.md
+├── inference.py
+├── data.yaml                                   
+├── weights/              
+│   ├── curves/              
+│   │   ├── BoxF1_curve.png
+│   │   ├── BoxPR_curve.png
+│   │   ├── BoxP_curve.png
+│   │   └── BoxR_curve.png
+├── confusion_matrix.png
+├── confusion_matrix_normalized.png
+├── results.png
+├── results.csv
+├── args.yaml
+│   └── train_batch*.jpg      
+│   
+└── requirements.txt
 
 ### 🛠️ Tech Stack
 
