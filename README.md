@@ -58,6 +58,9 @@ coco-1500-object-detection-yolov8/
 ├── data.yaml
 ├── notebook/
 │   └── training_coco1500.ipynb
+├── weights/
+│   ├── best.pt
+│   └── last.pt
 ├── results/
 │   ├── curves/
 │   │   ├── BoxF1_curve.png
