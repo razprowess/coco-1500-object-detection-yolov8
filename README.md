@@ -9,6 +9,9 @@
 
 I created a clean **1,500-image subset** from the official COCO 2017 validation set using FiftyOne, imported and reviewed annotations in CVAT, and trained a YOLOv8 model on Google Colab.
 
+📁 Visual Samples (Bounding Boxes, Segmentation, Exports):  
+https://drive.google.com/drive/folders/1ClsHdx_kjHgslyhJlpWHQAe3nc5rU8el?usp=drive_link
+
 ---
 
 ### 📋 Project Overview

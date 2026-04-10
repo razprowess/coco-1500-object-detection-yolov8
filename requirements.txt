@@ -1,5 +1,0 @@
-ultralytics>=8.4.0
-torch
-torchvision
-matplotlib
-opencv-python
